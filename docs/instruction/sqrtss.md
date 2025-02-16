@@ -18,7 +18,7 @@ The source operand can be an XMM register or a 32-bit memory location. The desti
  
 ```c
 Destination[0..31] = SquareRoot(Source[0..31]);
-//Destination[64..127] remains unchanged
+//Destination[32..127] remains unchanged
 
 ```
  
